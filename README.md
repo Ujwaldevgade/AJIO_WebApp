@@ -1,5 +1,4 @@
-cat > README.md << "EOF"
-# Ajio Web Application
+# AJIO WebApp
 
 Welcome to the Ajio Web Application! This is a full-stack e-commerce platform built with React, Commerce.js, and other technologies. The application allows users to browse products, add them to cart, make purchases, and manage their profiles.
 
