@@ -7,7 +7,8 @@ Welcome to the Ajio Web Application! This is a full-stack e-commerce platform bu
 ![Ajio Web Application](./public/images/Screenshot.png)
 
 
-![Ajio Web Application 2](./public/images/Screenshot 2.png)
+![Ajio Web Application 2](./public/images/Screenshot2.png)
+
 
 
 
