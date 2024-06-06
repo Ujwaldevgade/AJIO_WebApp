@@ -1,6 +1,6 @@
 # AJIO WebApp
 
-Welcome to the Ajio Web Application! This is a full-stack e-commerce platform built with React.js and other technologies. The application allows users to browse products, add them to the cart, make purchases, and manage their profiles.
+Welcome to the Ajio Web Application! This is an e-commerce platform built with React.js and other technologies. The application allows users to browse products, add them to the cart, make purchases, and manage their profiles.
 
 
 
