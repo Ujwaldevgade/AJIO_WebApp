@@ -1,21 +1,14 @@
 const express = require('express');
-const dotenv = require('dotenv');
-const connectDB = require('./config/db');
-const products = require('./routes/products');
-
-dotenv.config();
-
 const app = express();
 
-// Connect to MongoDB
-connectDB();
+const PORT = 3001;
 
-// Middleware
-app.use(express.json());
+// Define a route handler for the root path
+app.get('/', (req, res) => {
+    res.send('Hello from backend!');
+});
 
-// Routes
-app.use('/api/products', products);
-
-const PORT = process.env.PORT || 5000;
-
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// Start the server
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
